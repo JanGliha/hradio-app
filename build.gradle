@@ -12,10 +12,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url "https://artifactory.irt.de/artifactory/hradio"
-        }
-
         maven { url 'https://jitpack.io' }
     }
 }
